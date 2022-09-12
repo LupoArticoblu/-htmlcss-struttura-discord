@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+
+}
+
+section{
+  height: 70vh;
+  background-color: brown;
+  border: 1px solid blue;
+  padding: 0 50px;
+}
+
+section .head{
+  padding: 70px 50px;
+  background-color: cornflowerblue;
+}
