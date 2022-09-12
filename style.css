@@ -4,11 +4,30 @@
   box-sizing: border-box;
 }
 
-.container{
-
+span{
+  font-size: 200px;
+  position: absolute;
+  display: inline-block;
+  color: beige;
+  top: 340px;
+  left: 550px;
+  transform: translate(-50%, -50%);
 }
 
-section{
+h1{
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+}
+
+header section{
+  height: 70vh;
+  border: 1px solid blue;
+  padding: 0 50px;
+  background-color: brown;
+}
+
+main div{
   height: 70vh;
   border: 1px solid blue;
   padding: 0 50px;
@@ -16,15 +35,14 @@ section{
 }
 
 .head{
+  position: relative;
   padding: 20px 50px;
   background-color: cornflowerblue;
 }
 
 .alto{
   display: flex;
-  justify-content: space-between;
-  
-  
+  justify-content: space-between; 
 }
 
 .imgdiscord{
@@ -84,6 +102,47 @@ nav ul li:hover{
   flex-basis: 25%;
 }
 
+header p{
+  margin: 20px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.c{
+  margin-top: 50px;
+  padding: 20px;
+  position: absolute;
+  left: 40%;
+}
+
+.c1{
+  margin-top: 50px;
+  padding: 20px;
+  position: absolute;
+  left: 55%;
+}
+
+.server,
+.canali,
+.community{
+  display: flex;
+  gap: 20px;
+  
+}
+
+div section{
+  height: 100%;
+  width: 60%;
+  background-color: azure;
+  border: 2px solid goldenrod; 
+}
+
+div aside{
+  height: 100%;
+  width: 30%;
+  background-color: chocolate;
+  border: 2px solid lightgreen;
+}
 
 
 
